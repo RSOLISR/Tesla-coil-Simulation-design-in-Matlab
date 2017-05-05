@@ -1,0 +1,11 @@
+clc;
+subplot(2,1,1);
+plot(time,CapacitorVoltage);
+title('Capacitor Voltage');
+xlabel('time in[secs]');
+ylabel('current in [amps]');
+subplot(212);
+plot(time,firingcurrent);
+title('Firing Current');
+xlabel('time in[secs]');
+ylabel('current in [amps]');
